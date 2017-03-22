@@ -6,6 +6,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.concurrent.TimeUnit;
+
 /**
  * Created by gft07 on 3/22/2017.
  */
@@ -36,7 +38,6 @@ public class DockerRegistrationTest {
         dockerHub.email.sendKeys(email);
         dockerHub.password.sendKeys(password);
 
-        dockerHub.registerButton.click();
 
 
 

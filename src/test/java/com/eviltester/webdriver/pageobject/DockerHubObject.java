@@ -34,5 +34,8 @@ public class DockerHubObject {
     @FindBy(xpath = "//*[@id=\"nw_submit\"]")
     public WebElement signInButton;
 
+    @FindBy(xpath = "//*[@id=\"nw_username\"]")
+    public WebElement loggedName;
+
 
 }
